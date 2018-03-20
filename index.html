@@ -46,13 +46,18 @@
 <link rel="icon" type="image/ico" href="favicon.ico">
 <link rel="icon" type="image/png" href="favicon.png">
 -->
-<!--Google FONTs-->
-<link href="https://fonts.googleapis.com/css?family=Parisienne|Playfair+Display:400,400i,700,900" rel="stylesheet">
-
 <!-- Bootstrap, CSS, you gotta have style -->
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.css.map">
-<link rel="stylesheet" href="css/styles.css">
+
+<!--COMPASS-->
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="stylesheets/styles.css">
+<!--[if IE]>
+    <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+
 <!-- Modernizer, cause some browsers suck -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
@@ -82,7 +87,7 @@
     <!--end_IMAGE__BACKGROUND-->
     <!--***-->
     <!--HEADER-CONTENT-->
-    <div class = "row justify-content-center">
+    <div class = "row dorotea_justify-content-center">
       <div class = "col-8 offset-4 col-mmd-6 offset-mmd-6 col-md-5 col-lg-3 offset-lg-0 extra-padding-left-lg extra-padding-mmd-top order-lg-2">
         <hr class = "subline-verse"/>
         <p class = "dorotea__verse">Puedo sentir cada alegria y buen recuerdo, cada fracaso
@@ -224,8 +229,8 @@
   <!--FEELTHETEXTURE-->
   <div class = "container-fluid">
     <div class = "row justify-content-center">
-      <section class = "col-12 col-md-10 row justify-content-center d-flex flex-row justify-content-center end-of-section">
-        <div class = "col-12 col-mmd-6 d-flex flex-column align-items-center">
+      <section class = "col-12 col-md-10 row justify-content-center dorotea_d-flex flex-row dorotea_justify-content-center end-of-section">
+        <div class = "col-12 col-mmd-6 dorotea_d-flex dorotea_flex-direction-col dorotea_align-items-center">
           <h2 class = "d-block w-100 texture__title">
             <span class = "first">feel</span>
             <span class = "middle">the</span>
@@ -243,7 +248,7 @@
             <hr class = "subline-verse"/>
           </div>
         </div>
-        <p class = "col-12 col-mmd-6 align-self-mmd-end dorotea__content">
+        <p class = "col-12 col-mmd-6 align-self-end dorotea__content">
           El sentimiento generado al sentir cada producto es
           verdaderamente fantastico. Apreciar con algo mas que la vision la
           belleza de un arte, es una sensacion sobreacojedora. Cada trazo,
@@ -267,9 +272,9 @@
             will make you fall in love with Dorotea Collection" title = "Touch of Nature" />
 
           <div class = "d-block position-absolute w-100 h-100 nature__shadow-container"></div>
-          <div class = "nature__article position-absolute w-100 h-100 d-flex flex-column justify-content-center align-items-center flex-wrap">
+          <div class = "nature__article position-absolute w-100 h-100 dorotea_d-flex dorotea_flex-direction-col dorotea_justify-content-center dorotea_align-items-center dorotea_flex-wrap">
             <h2 class = "nature__title">Touch<span class = "middle">of</span><br/><span class = "last">Nature</span></h2>
-            <div class = "row no-gutters justify-content-center align-self-mmd-start d-mmd-flex flex-mmd-row">
+            <div class = "row no-gutters justify-content-center">
               <div class = "nature__verse-container col-8 col-md-4 extra-padding-mmd-top">
                 <hr class = "subline-verse"/>
                 <p class = "dorotea__verse dorotea__verse--color">
@@ -301,9 +306,9 @@
       <!--TITLE-->
       <h2 class = "pieces__title"><span class = "first">Dorotea</span> Collection <br/><span class = "last">Pieces</span></h2>
       <!--GALLERY-->
-      <ul class = "col-12 position-relative d-flex flex-row flex-wrap justify-content-center gallery__list-pieces">
+      <ul class = "col-12 position-relative dorotea_d-flex flex-row dorotea_flex-wrap dorotea_justify-content-center gallery__list-pieces">
         <!--COFFEE/TEA MUG -->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__coffee-tea-mug">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__coffee-tea-mug">
           <div class = "gallery__container-img">
             <h3 class = "piece__title">Coffee/Tea <span class = "first">mug</span></h3>
             <img class = "img" src = "./images/mobile-screen/480/gallery/mug.jpg" alt = "A Coffee/Tea Mug from Dorotea Collection. Made by Carolina Silva. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"
@@ -374,7 +379,7 @@
         <!--end__MODAL__COFFEE-TEA-MUG-->
         <!--***-->
         <!--SOUP CEREAL-->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__soup-cereal">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__soup-cereal">
           <div class = "gallery__container-img">
             <h3 class = "piece__title">Soup/Cereal <span class = "first">bowl</span></h3>
               <img class = "img" src = "./images/mobile-screen/480/gallery/soup-cereal.jpg" alt = "A Soup/Cereal Bowl from Dorotea Collection. Made by Carolina Silva. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"
@@ -443,7 +448,7 @@
         <!--end__SOUP CEREAL-->
         <!--***-->
         <!--DINNER PLATE -->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__dinner-plate">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__dinner-plate">
           <div class = "gallery__container-img">
             <h3 class = "piece__title">Dinner <span class = "first first--plate">plate</span></h3>
               <img class = "img" src = "./images/mobile-screen/480/gallery/plate-480.jpg" alt = "A Dinner Plate from Dorotea Collection. Made by Carolina Silva. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"
@@ -512,7 +517,7 @@
         </div>
         <!--end__DINNER PLATE-->
         <!--SALAD-PLATE-->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__salad-plate">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__salad-plate">
           <div class = "gallery__container-img">
             <h3 class = "piece__title">Salad/Dessert <span class = "first">plate</span></h3>
               <img class = "img"  src = "./images/mobile-screen/480/gallery/salad-plate.jpg" alt = "A Dinner Plate from Dorotea Collection. Made by Carolina Silva. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"
@@ -582,7 +587,7 @@
         <!--end__SALAD PLATE-->
         <!--*****-->
         <!--SMALL FRUIT-->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__small-fruit">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__small-fruit">
           <div class = "gallery__container-img">
             <h3 class = "piece__title">Small Fruit <span class = "first">bowl</span></h3>
               <img class = "img"  src = "./images/mobile-screen/480/gallery/fruit-bowl.jpg" alt = "A Small Fruit Bowl from Dorotea Collection. Made by Carolina Silve. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"
@@ -651,7 +656,7 @@
         </div>
         <!--end__SMALL-FRUIT-->
         <!--VEGETABLE BOWL-->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__veggie-bowl">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__veggie-bowl">
           <div class = "gallery__container-img">
             <h3 class = "piece__title">Veggie Serving <span class = "first">bowl</span></h3>
               <img class = "img"  src = "./images/mobile-screen/480/gallery/veggie-bowl.jpg" alt = "A Vegetable Serving Bowl from Dorotea Collection. Made by Carolina Silve. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"
@@ -720,7 +725,7 @@
         </div>
         <!--end__VEGETABLE-BOWL-->
         <!--16-PIECES OFFER-->
-        <li class = "piece position-relative d-flex flex-column flex-wrap piece__offer" data-toggle="modal" data-target="#modal__16pieces">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap piece__offer" data-toggle="modal" data-target="#modal__16pieces">
           <h3 class = "piece__title piece__offer__title"><span class = "number" data-toggle="modal" data-target="#modal__16pieces">16</span><span>Pieces <span class = "middle">Dinnerware</span> Set</span></h3>
           <ul class = "piece__offer__list" data-toggle="modal" data-target="#modal__16pieces">
             <li class = "offer">4-Dinner<span class = "offer--pink">Plates</span></li>
@@ -809,7 +814,7 @@
         </div>
         <!--end__16 PIECES SERVING OFFER-->
         <!--OVAL-PLATTER-->
-        <li class = "piece position-relative d-flex flex-column flex-wrap" data-toggle="modal" data-target="#modal__oval">
+        <li class = "piece position-relative dorotea_d-flex dorotea_flex-direction-col dorotea_flex-wrap" data-toggle="modal" data-target="#modal__oval">
           <div class = "gallery__container-img">
             <h3  class = "piece__title">Oval Serving <span class = "first">platter</span></h3>
               <img class = "img"  src = "./images/mobile-screen/480/gallery/oval.jpg" alt = "An Oval Serving Platter from Dorotea Collection. Made by Carolina Silve. Made of ceramic. Microwave safe. Dishwasher safe. REMEMBER TO PUT THE LIQUIDS. REMEMBER TO PUT THE SIZE OF THE MUG"

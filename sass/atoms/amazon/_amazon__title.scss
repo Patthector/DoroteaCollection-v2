@@ -1,0 +1,25 @@
+
+.amazon__title{
+  @include fonty( 60px, $default-ff, black, $bold){
+    position: relative;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background: #ffb3a133;
+  }
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  font-weight: $bold;
+  @media(min-width: map-get($breakpoints,small)){
+      font-size: 96px;
+  }
+  @media(min-width: map-get($breakpoints,mmd)){
+      font-size: 72px;
+  }
+  @media(min-width: map-get($breakpoints,md)){
+      font-size: 84px;
+  }
+  @media(min-width: map-get($breakpoints,large)){
+      font-size: 180px;
+  }
+}
