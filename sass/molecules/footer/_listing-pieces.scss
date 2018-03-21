@@ -1,0 +1,11 @@
+
+.listing-pieces{
+  width: 100%;
+  @media(min-width: map-get($breakpoints,mmd)){
+    width: 80%;
+  }
+  @media(min-width: map-get($breakpoints,large)){
+    width: 40%;
+    order:2;
+  }
+}

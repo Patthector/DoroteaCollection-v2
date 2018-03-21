@@ -36,6 +36,10 @@
     max-width: 480px;
   }
 }
+//PADDING-LEFT-LIST
+.list-left-pad{
+  padding-left:0;
+}
 //FLEX
 .dorotea_d-flex{@include display-flex();}
 .dorotea_flex-direction-row{@include flex-direction(row);}
@@ -43,3 +47,23 @@
 .dorotea_flex-wrap{@include flex-wrap(wrap);}
 .dorotea_justify-content-center{@include justify-content(center);}
 .dorotea_align-items-center{@include align-items(center);}
+
+
+//FOOTER
+.flexy-footer-elem{
+  width: 100%;
+  @media(min-width: map-get($breakpoints, md)){
+    width: 100%;
+  }
+}
+//FOOTER-PIECE
+.flexy-footer-elem-piece{
+  width: 100%;
+  text-align: center;
+  @media(min-width: map-get($breakpoints,mmd)){
+    width: 50%;
+  }
+  @media(min-width: map-get($breakpoints,large)){
+    width: 100%;
+  }
+}

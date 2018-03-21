@@ -61,39 +61,73 @@
 }
 
 /* line 40, ../sass/utilities/_classes.scss */
+.list-left-pad {
+  padding-left: 0;
+}
+
+/* line 44, ../sass/utilities/_classes.scss */
 .dorotea_d-flex {
   display: -webkit-flex;
   display: flex;
 }
 
-/* line 41, ../sass/utilities/_classes.scss */
+/* line 45, ../sass/utilities/_classes.scss */
 .dorotea_flex-direction-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 42, ../sass/utilities/_classes.scss */
+/* line 46, ../sass/utilities/_classes.scss */
 .dorotea_flex-direction-col {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 43, ../sass/utilities/_classes.scss */
+/* line 47, ../sass/utilities/_classes.scss */
 .dorotea_flex-wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-/* line 44, ../sass/utilities/_classes.scss */
+/* line 48, ../sass/utilities/_classes.scss */
 .dorotea_justify-content-center {
   -webkit-justify-content: center;
   justify-content: center;
 }
 
-/* line 45, ../sass/utilities/_classes.scss */
+/* line 49, ../sass/utilities/_classes.scss */
 .dorotea_align-items-center {
   -webkit-align-items: center;
   align-items: center;
+}
+
+/* line 53, ../sass/utilities/_classes.scss */
+.flexy-footer-elem {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  /* line 53, ../sass/utilities/_classes.scss */
+  .flexy-footer-elem {
+    width: 100%;
+  }
+}
+
+/* line 60, ../sass/utilities/_classes.scss */
+.flexy-footer-elem-piece {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 720px) {
+  /* line 60, ../sass/utilities/_classes.scss */
+  .flexy-footer-elem-piece {
+    width: 50%;
+  }
+}
+@media (min-width: 1248px) {
+  /* line 60, ../sass/utilities/_classes.scss */
+  .flexy-footer-elem-piece {
+    width: 100%;
+  }
 }
 
 @viewport {
@@ -1528,131 +1562,298 @@ i {
   font-style: italic;
 }
 
-/* line 2, ../sass/atoms/amazon/_amazon__title.scss */
-.amazon__title {
+/* line 2, ../sass/atoms/footer/_affiliate-program.scss */
+.affiliate-program {
   font-family: "Playfair Display", serif;
-  font-size: 60px;
+  font-size: 8px;
   color: black;
-  font-weight: 700;
-  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
   font-style: normal;
-  position: relative;
-  width: 100%;
-  color: black;
+  line-height: 14px;
+  padding: 6px;
   text-align: center;
-  background: #ffb3a133;
-  font-family: "Playfair Display", serif;
-  font-size: 60px;
-  font-weight: 700;
+  width: 80%;
+  border: 1px solid #ffb3a1;
 }
 @media (min-width: 480px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__title.scss */
-  .amazon__title {
-    font-size: 96px;
+  /* line 2, ../sass/atoms/footer/_affiliate-program.scss */
+  .affiliate-program {
+    font-size: 12px;
+    line-height: 22px;
   }
 }
 @media (min-width: 720px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__title.scss */
-  .amazon__title {
-    font-size: 72px;
-  }
-}
-@media (min-width: 900px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__title.scss */
-  .amazon__title {
-    font-size: 84px;
+  /* line 2, ../sass/atoms/footer/_affiliate-program.scss */
+  .affiliate-program {
+    font-size: 11px;
+    line-height: 18px;
   }
 }
 @media (min-width: 1248px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__title.scss */
-  .amazon__title {
-    font-size: 180px;
+  /* line 2, ../sass/atoms/footer/_affiliate-program.scss */
+  .affiliate-program {
+    font-size: 12px;
+    line-height: 22px;
+    width: 95%;
+    padding: 12px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 2, ../sass/atoms/footer/_affiliate-program.scss */
+  .affiliate-program {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 1875px) {
+  /* line 2, ../sass/atoms/footer/_affiliate-program.scss */
+  .affiliate-program {
+    font-size: 12px;
+    line-height: 24px;
   }
 }
 
-/* line 2, ../sass/atoms/amazon/_amazon__exclusive.scss */
-.amazon__exclusive {
+/* line 2, ../sass/atoms/footer/_footer-title.scss */
+.footer-title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: #26272a;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  font-size: 6.5vw;
+  color: #26272a;
+  font-weight: 400;
+  letter-spacing: 0.3vw;
+  text-transform: uppercase;
+  font-style: normal;
+}
+@media (min-width: 480px) {
+  /* line 2, ../sass/atoms/footer/_footer-title.scss */
+  .footer-title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 720px) {
+  /* line 2, ../sass/atoms/footer/_footer-title.scss */
+  .footer-title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1248px) {
+  /* line 2, ../sass/atoms/footer/_footer-title.scss */
+  .footer-title {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 2, ../sass/atoms/footer/_footer-title.scss */
+  .footer-title {
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+}
+@media (min-width: 1875px) {
+  /* line 2, ../sass/atoms/footer/_footer-title.scss */
+  .footer-title {
+    font-size: 36px;
+    letter-spacing: 6px;
+  }
+}
+
+/* line 2, ../sass/atoms/footer/_about-author-content.scss */
+.about-author-content {
+  width: 80%;
+  font-family: "Playfair Display", serif;
+  color: #484c55;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  line-height: 17px;
+}
+@media (min-width: 480px) {
+  /* line 2, ../sass/atoms/footer/_about-author-content.scss */
+  .about-author-content {
+    font-family: "Playfair Display", serif;
+    color: #484c55;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 720px) {
+  /* line 2, ../sass/atoms/footer/_about-author-content.scss */
+  .about-author-content {
+    font-family: "Playfair Display", serif;
+    color: #484c55;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    line-height: 3.8vw;
+  }
+}
+@media (min-width: 900px) {
+  /* line 2, ../sass/atoms/footer/_about-author-content.scss */
+  .about-author-content {
+    font-family: "Playfair Display", serif;
+    color: #484c55;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 1248px) {
+  /* line 2, ../sass/atoms/footer/_about-author-content.scss */
+  .about-author-content {
+    font-family: "Playfair Display", serif;
+    color: #484c55;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 2, ../sass/atoms/footer/_about-author-content.scss */
+  .about-author-content {
+    font-family: "Playfair Display", serif;
+    color: #484c55;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 1875px) {
+  /* line 2, ../sass/atoms/footer/_about-author-content.scss */
+  .about-author-content {
+    font-family: "Playfair Display", serif;
+    color: #484c55;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+}
+
+/* line 2, ../sass/atoms/footer/_listing-pieces-title.scss */
+.listing-pieces-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 6px;
+  font-family: "Parisienne", cursive;
+  font-size: 36px;
+  color: #ffb3a1;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  font-style: normal;
+  line-height: 20px;
+}
+/* line 7, ../sass/atoms/footer/_listing-pieces-title.scss */
+.listing-pieces-title .first {
+  display: inline-block;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  font-style: italic;
+}
+@media (min-width: 720px) {
+  /* line 2, ../sass/atoms/footer/_listing-pieces-title.scss */
+  .listing-pieces-title {
+    font-size: 48px;
+    line-height: 24px;
+  }
+  /* line 15, ../sass/atoms/footer/_listing-pieces-title.scss */
+  .listing-pieces-title .first {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1500px) {
+  /* line 2, ../sass/atoms/footer/_listing-pieces-title.scss */
+  .listing-pieces-title {
+    font-size: 48px;
+    line-height: 24px;
+  }
+  /* line 22, ../sass/atoms/footer/_listing-pieces-title.scss */
+  .listing-pieces-title .first {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1875px) {
+  /* line 2, ../sass/atoms/footer/_listing-pieces-title.scss */
+  .listing-pieces-title {
+    font-size: 48px;
+    line-height: 24px;
+  }
+  /* line 29, ../sass/atoms/footer/_listing-pieces-title.scss */
+  .listing-pieces-title .first {
+    font-size: 28px;
+  }
+}
+
+/* line 2, ../sass/atoms/footer/_footer-piece.scss */
+.footer-piece {
   font-family: "Playfair Display", serif;
   font-size: 11px;
   color: black;
   font-weight: 400;
-  letter-spacing: 10px;
-  text-transform: none;
-  font-style: italic;
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 50%;
-  left: 0;
-  background: white;
-  color: black;
-  padding-bottom: 3px;
-  text-shadow: 0 0 0 white 0px 1px #aaaaaa;
-}
-@media (min-width: 480px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__exclusive.scss */
-  .amazon__exclusive {
-    font-size: 11px;
-  }
-}
-@media (min-width: 720px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__exclusive.scss */
-  .amazon__exclusive {
-    font-size: 12px;
-  }
-}
-@media (min-width: 900px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__exclusive.scss */
-  .amazon__exclusive {
-    font-size: 14px;
-  }
-}
-@media (min-width: 1248px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__exclusive.scss */
-  .amazon__exclusive {
-    font-size: 18px;
-  }
-}
-
-/* line 2, ../sass/atoms/amazon/_amazon__content.scss */
-.amazon__content {
-  font-family: "Playfair Display", serif;
-  font-size: 7px;
-  color: black;
-  font-weight: 400;
-  letter-spacing: 0.1vw;
+  letter-spacing: 0;
   text-transform: uppercase;
   font-style: normal;
-  line-height: 12px;
-  padding: 0;
-  margin: 1vw 0;
-  text-align: center;
+}
+/* line 4, ../sass/atoms/footer/_footer-piece.scss */
+.footer-piece span {
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+  color: #484c55;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  font-style: italic;
 }
 @media (min-width: 480px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__content.scss */
-  .amazon__content {
-    font-size: 8px;
-  }
-}
-@media (min-width: 720px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__content.scss */
-  .amazon__content {
-    font-size: 9px;
-  }
-}
-@media (min-width: 1248px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__content.scss */
-  .amazon__content {
+  /* line 2, ../sass/atoms/footer/_footer-piece.scss */
+  .footer-piece {
     font-size: 12px;
-    line-height: 18px;
+  }
+  /* line 9, ../sass/atoms/footer/_footer-piece.scss */
+  .footer-piece span {
+    font-size: 13px;
   }
 }
 @media (min-width: 1500px) {
-  /* line 2, ../sass/atoms/amazon/_amazon__content.scss */
-  .amazon__content {
-    font-size: 1vw;
-    line-height: 1.5vw;
+  /* line 2, ../sass/atoms/footer/_footer-piece.scss */
+  .footer-piece {
+    font-size: 13.5px;
+    letter-spacing: .5px;
   }
+  /* line 16, ../sass/atoms/footer/_footer-piece.scss */
+  .footer-piece span {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1875px) {
+  /* line 2, ../sass/atoms/footer/_footer-piece.scss */
+  .footer-piece {
+    font-size: 13.5px;
+    letter-spacing: .5px;
+  }
+  /* line 23, ../sass/atoms/footer/_footer-piece.scss */
+  .footer-piece span {
+    font-size: 12px;
+  }
+}
+
+/* line 2, ../sass/atoms/footer/_footer-mini-pic.scss */
+.footer-mini-pic {
+  width: 13%;
+  display: inline-block;
 }
 
 /* line 2, ../sass/atoms/_sublines-verse.scss */
@@ -1880,6 +2081,25 @@ i {
   padding-right: 12px;
 }
 
+/* line 2, ../sass/atoms/_dorotea_video.scss */
+.dorotea_video {
+  display: inline-block;
+  width: 100%;
+  background-color: gray;
+}
+@media (min-width: 320px) {
+  /* line 2, ../sass/atoms/_dorotea_video.scss */
+  .dorotea_video {
+    width: 80%;
+  }
+}
+@media (min-width: 720px) {
+  /* line 2, ../sass/atoms/_dorotea_video.scss */
+  .dorotea_video {
+    width: 40%;
+  }
+}
+
 /* line 2, ../sass/molecules/header/_header__title-container.scss */
 .header__title-container {
   top: 50%;
@@ -2105,6 +2325,53 @@ i {
 /* line 1, ../sass/molecules/pieces/modal/_gallery__modal-footer.scss */
 .gallery__modal-footer {
   background: rgba(0, 0, 0, 0.08);
+}
+
+/* line 2, ../sass/molecules/footer/_about-the-author.scss */
+.about-the-author {
+  width: 100%;
+}
+@media (min-width: 1248px) {
+  /* line 2, ../sass/molecules/footer/_about-the-author.scss */
+  .about-the-author {
+    width: 35%;
+    order: 1;
+  }
+}
+
+/* line 2, ../sass/molecules/footer/_listing-pieces.scss */
+.listing-pieces {
+  width: 100%;
+}
+@media (min-width: 720px) {
+  /* line 2, ../sass/molecules/footer/_listing-pieces.scss */
+  .listing-pieces {
+    width: 80%;
+  }
+}
+@media (min-width: 1248px) {
+  /* line 2, ../sass/molecules/footer/_listing-pieces.scss */
+  .listing-pieces {
+    width: 40%;
+    order: 2;
+  }
+}
+
+/* line 2, ../sass/molecules/footer/_footer_pieces-list.scss */
+.footer_pieces-list {
+  list-style: none;
+}
+
+/* line 2, ../sass/molecules/footer/_important-notice.scss */
+.important-notice {
+  width: 100%;
+}
+@media (min-width: 1248px) {
+  /* line 2, ../sass/molecules/footer/_important-notice.scss */
+  .important-notice {
+    width: 25%;
+    order: 3;
+  }
 }
 
 /* line 2, ../sass/organisms/_main.scss */

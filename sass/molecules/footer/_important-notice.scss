@@ -1,0 +1,8 @@
+
+.important-notice{
+  width: 100%;
+  @media(min-width: map-get($breakpoints,large)){
+    width: 25%;
+    order:3;
+  }
+}
