@@ -35,11 +35,6 @@ $base-line-height:            24;
 //  ),
 //);
 $typefaces: (
-  'Parisienne/parisienne-regular-webfont': (
-    family: 'Parisienne',
-    weight: 400,
-    style: normal,
-  ),
   'Playfair+Display/playfairdisplay-regular-webfont': (
     family: 'Playfair Display',
     weight: 400,
@@ -68,7 +63,7 @@ $typefaces: (
 //
 // $font-family-sans-fallback - {list}
 
-//$font-family-sans-fallback:   'Arial', sans-serif;
+$font-family-sans-fallback:   'Arial', sans-serif;
 
 // $font-family-sans
 //
@@ -77,7 +72,7 @@ $typefaces: (
 // $font-family-sans - {list}
 // @requires - `$font-family-sans-fallback`
 
-//$font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
+$font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
 
 // $font-family-serif
 //
@@ -85,7 +80,7 @@ $typefaces: (
 //
 // $font-family-serif - {list}
 
-//$font-family-serif:           'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+$font-family-serif:           'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
 
 // $font-family-monospace
 //
@@ -93,7 +88,7 @@ $typefaces: (
 //
 // $font-family-monospace - {list}
 
-//$font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
+$font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
 
 // $font-family-display
 //
@@ -101,16 +96,16 @@ $typefaces: (
 //
 // $font-family-display - {list}
 
-//$font-family-display:         $font-family-sans;
+$font-family-display:         $font-family-sans;
 
-// $font-family-default
+// $font-family-default 
 //
 // Define font stack used for paragraphs.
 //
 // $font-family-default - {string}
 // @requires - `$font-family-sans`
 
-//$font-family-default:         $font-family-sans;
+$font-family-default:         $font-family-sans;
 
 $default-ff         :'Playfair Display';
 $cursive-ff         :'Parisienne';

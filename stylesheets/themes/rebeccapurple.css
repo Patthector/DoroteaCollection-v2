@@ -3072,32 +3072,32 @@ body {
   @import url($google-fonts-url);
 }*/
 @font-face {
-  font-family: "Parisienne";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/Parisienne/parisienne-regular-webfont.ttf") format("truetype"), url("./fonts/Parisienne/parisienne-regular-webfont.woff") format("woff"), url("./fonts/Parisienne/parisienne-regular-webfont.woff2") format("woff2");
-}
-@font-face {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.woff2") format("woff2");
+  src: url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.otf") format("opentype"), url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-regular-webfont.woff2") format("woff2");
 }
 @font-face {
   font-family: "Playfair Display";
   font-style: italic;
   font-weight: 400;
-  src: url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.woff2") format("woff2");
+  src: url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.otf") format("opentype"), url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-italic-webfont.woff2") format("woff2");
 }
 @font-face {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  src: url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.woff2") format("woff2");
+  src: url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.otf") format("opentype"), url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-bold-webfont.woff2") format("woff2");
 }
 @font-face {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 900;
-  src: url("./fonts/Playfair+Display/playfairdisplay-black-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-black-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-black-webfont.woff2") format("woff2");
+  src: url("./fonts/Playfair+Display/playfairdisplay-black-webfont.ttf") format("truetype"), url("./fonts/Playfair+Display/playfairdisplay-black-webfont.otf") format("opentype"), url("./fonts/Playfair+Display/playfairdisplay-black-webfont.woff") format("woff"), url("./fonts/Playfair+Display/playfairdisplay-black-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Parisiene';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Parisienne/parisienne-regular.ttf") format("truetype"), url("./fonts/Parisienne/parisienne-regular-webfont.woff") format("woff"), url("./fonts/Parisienne/parisienne-regular-webfont.woff2") format("woff2");
 }

@@ -13,8 +13,17 @@
       font-style: map-get(map-get($typefaces, $file), style);
       font-weight: map-get(map-get($typefaces, $file), weight);
       src: url('./fonts/#{$file}.ttf') format('truetype'),
+            url('./fonts/#{$file}.otf') format('opentype'),
            url('./fonts/#{$file}.woff') format('woff'),
            url('./fonts/#{$file}.woff2') format('woff2');
     }
   }
+}
+@font-face {
+  font-family: 'Parisiene';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Parisienne/parisienne-regular.ttf') format('truetype'),
+       url('./fonts/Parisienne/parisienne-regular-webfont.woff') format('woff'),
+       url('./fonts/Parisienne/parisienne-regular-webfont.woff2') format('woff2');
 }
