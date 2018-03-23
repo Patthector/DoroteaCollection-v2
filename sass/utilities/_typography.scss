@@ -51,7 +51,7 @@ $typefaces: (
     style: normal,
   ),
   'Playfair+Display/playfairdisplay-black-webfont': (
-    family: 'Playfair Display',
+    family: 'Playfair Display', 
     weight: 900,
     style: normal,
   ),
@@ -98,7 +98,7 @@ $font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Ver
 
 $font-family-display:         $font-family-sans;
 
-// $font-family-default 
+// $font-family-default
 //
 // Define font stack used for paragraphs.
 //
@@ -107,8 +107,8 @@ $font-family-display:         $font-family-sans;
 
 $font-family-default:         $font-family-sans;
 
-$default-ff         :'Playfair Display';
-$cursive-ff         :'Parisienne';
+$default-ff         :"Playfair Display",serif;
+$cursive-ff         :"Parisienne",cursive;
 
 $regular:400;
 $bold:700;
