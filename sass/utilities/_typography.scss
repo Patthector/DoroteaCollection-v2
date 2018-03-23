@@ -34,6 +34,7 @@ $base-line-height:            24;
 //    style: normal,
 //  ),
 //);
+/*
 $typefaces: (
   'Playfair+Display/playfairdisplay-regular-webfont': (
     family: 'Playfair Display',
@@ -51,12 +52,12 @@ $typefaces: (
     style: normal,
   ),
   'Playfair+Display/playfairdisplay-black-webfont': (
-    family: 'Playfair Display', 
+    family: 'Playfair Display',
     weight: 900,
     style: normal,
   ),
 );
-
+*/
 // $font-family-sans-fallback
 //
 // Define font stack used for sans-serifs.
@@ -110,6 +111,6 @@ $font-family-default:         $font-family-sans;
 $default-ff         :"Playfair Display",serif;
 $cursive-ff         :"Parisienne",cursive;
 
-$regular:400;
+$regular:400; 
 $bold:700;
 $black:900;
