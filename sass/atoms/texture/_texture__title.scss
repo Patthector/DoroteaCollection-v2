@@ -76,18 +76,17 @@
 //DESKTOPS
 @media(min-width:map-get($breakpoints,large)){
   .texture__title{
-    line-height: 5vw;
-    word-spacing: -1vw;
+    line-height: 55px;
+    word-spacing: -30px;
     .first{
-      font-size:9vw;
+      font-size: 132px;
       letter-spacing: -.5vw;
     }
     .middle{
-      font-size: 5vw;
-      letter-spacing: -.7vw;
+      font-size: 72px;
     }
     .last{
-      font-size:9vw;
+      font-size:132px;
     }
   }
 }

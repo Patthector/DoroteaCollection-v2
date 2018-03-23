@@ -15,6 +15,23 @@
     margin-bottom: 72px;
   }
 }
+.end-of-section-footer{
+  margin-bottom: 36px;
+  @media(min-width: map-get($breakpoints,small)){
+    margin-bottom: 36px;
+  }
+  @media(min-width: map-get($breakpoints,mmd)){
+    margin-bottom: 48px;
+  }
+  @media(min-width: map-get($breakpoints,md)){
+    margin-top:12px;
+    margin-bottom: 12px;
+  }
+  @media(min-width: map-get($breakpoints,large)){
+    margin-top:24px;
+    margin-bottom: 24px;
+  }
+}
 .extra-padding-left-lg{
   @media(min-width: map-get($breakpoints,large)){
     padding-left: 48px;
@@ -24,6 +41,11 @@
   @media(min-width: map-get($breakpoints,large)){
       padding-top: 24px;
   }
+}
+//NO-GUTTERS-MARGIN
+.no-gutters-padding{
+  padding-left: 0;
+  padding-right: 0;
 }
 .img--modal{
   max-width: 300px;
@@ -60,10 +82,14 @@
 .flexy-footer-elem-piece{
   width: 100%;
   text-align: center;
-  @media(min-width: map-get($breakpoints,mmd)){
+  @media(min-width: map-get($breakpoints,small)){
     width: 50%;
   }
-  @media(min-width: map-get($breakpoints,large)){
+  @media(min-width: map-get($breakpoints,md)){
     width: 100%;
   }
+}
+//IMG-BACKGROUND-SHADOWW
+.img-background-shadow{
+  box-shadow: 0 0 5px black;
 }

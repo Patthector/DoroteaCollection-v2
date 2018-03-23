@@ -17,13 +17,13 @@
 }
 /****/
 //GRID-COLUMN and GRID-ORDER
-@for $i from 1 through 12{
+@for $i from 1 through 13{
   .grid-sm-#{$i}{grid-column-end: span #{$i};}
   .grid-order-sm-#{$i}{order: #{$i};}
 }
-@media(min-width:map-get($breakpoints,md)){
-  @for $i from 1 through 12{
-    .grid-md-#{$i}{grid-column-end: span #{$i};}
-    .grid-order-md-#{$i}{order: #{$i};}
+@media(min-width:map-get($breakpoints,mmd)){
+  @for $i from 1 through 13{
+    .grid-mmd-#{$i}{grid-column-end: span #{$i};}
+    .grid-order-mmd-#{$i}{order: #{$i};} 
   }
 }

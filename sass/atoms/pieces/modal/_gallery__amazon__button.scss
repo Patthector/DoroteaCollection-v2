@@ -18,7 +18,10 @@
       font-size: 3.8vw;
     }
     @media(min-width:map-get($breakpoints,large)){
-      font-size: 3vw;
+      font-size: 42px;
+    }
+    @media(min-width:1875px){
+      font-size: 48px;
     }
   }
 }

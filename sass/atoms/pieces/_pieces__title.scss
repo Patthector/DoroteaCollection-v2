@@ -49,42 +49,41 @@
       display: block;
       font-size:9vw;
     }
-
   }
   //DESKTOPS
   @media(min-width:map-get($breakpoints,large)){
-    line-height: 70px;
+    line-height: 60px;
     font-size: 84px;
     .first{
       font-size: 84px;
       letter-spacing: 0;
     }
     .last{
-      font-size:108px;
+      font-size:84px;
     }
   }
   //BIG DESKTOPS
   @media(min-width:map-get($breakpoints,xlarge)){
-    line-height: 70px;
+    line-height: 60px;
     font-size: 84px;
     .first{
       font-size: 84px;
       letter-spacing: 0;
     }
     .last{
-      font-size:108px;
+      font-size:84px;
     }
   }
   //STATIC LAYOUT
   @media(min-width: 1875px){//static layout
-    line-height: 80px;
-    font-size: 120px;
+    line-height: 64px;
+    font-size: 96px;
     .first{
       font-size: 108px;
       letter-spacing: 0;
     }
     .last{
-      font-size:144px;
+      font-size:96px;
     }
   }
 

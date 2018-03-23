@@ -32,9 +32,9 @@
 //BIG LAPTOPS
   @media(min-width:map-get($breakpoints,md)){
     @include dorotea__content(
-            1.5vw,
-            .1vw,
-            3vw,
+            16px,
+            1.1px,
+            32px,
             $cursive-ff,
             8vw,
             -.5vw);
@@ -42,24 +42,24 @@
 //DESKTOPS
   @media(min-width:map-get($breakpoints,large)){
     @include dorotea__content(
-            20px,
+            16px,
             1px,
-            44px,
+            32px,
             $cursive-ff,
-            108px,
+            84px,
             -5px);
     &.dorotea__content--hand{
-      margin-top: 156px;
+      margin-top: 132px;
     }
   }
   //BIG DESKTOPS
     @media(min-width:map-get($breakpoints,xlarge)){
       @include dorotea__content(
-              20px,
+              18px,
               1px,
-              44px,
+              36px,
               $cursive-ff,
-              108px,
+              96px,
               -5px);
     }
     @media(min-width: 1875px){//static layout

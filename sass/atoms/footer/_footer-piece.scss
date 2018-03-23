@@ -10,6 +10,12 @@
       font-size:13px;
     }
   }
+  @media(min-width:map-get($breakpoints,md)){
+    color:white;
+    span{
+      color:white;
+    }
+  }
   @media(min-width:map-get($breakpoints,xlarge)){
     font-size:13.5px;
     letter-spacing: .5px;

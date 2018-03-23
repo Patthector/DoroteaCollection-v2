@@ -7,6 +7,11 @@
     font-size: 24px;
    }
    @media(min-width: map-get($breakpoints,mmd)){
+     font-size: 32px;
+    }
+   @media(min-width: map-get($breakpoints,md)){
+     color:#e4e4e4;
+     text-shadow: 0 0 .5px black;
      font-size: 24px;
     }
    @media(min-width: map-get($breakpoints,large)){

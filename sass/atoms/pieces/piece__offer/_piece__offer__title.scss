@@ -11,7 +11,7 @@
     line-height: 3.5vw;
   }
   @media(min-width:map-get($breakpoints,mmd)){
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     margin-top: 0;
     line-height: 2.8vw;
   }
@@ -19,6 +19,7 @@
     font-size: 2.5vw;
     margin-top: 0;
     line-height: 2vw;
+    text-shadow: 0 0 .5px #9e9e9e;
   }
   @media(min-width:map-get($breakpoints,large)){
     font-size: 2.2vw;
@@ -41,6 +42,7 @@
     color:$color-primary;
     font-weight: $regular;
     font-size:20vw;
+    text-shadow: 0px 0px 0px white;
 
     @media(min-width:320px){
       font-size:9vw;
@@ -63,7 +65,7 @@
   }
   .middle{
     @include fonty(10vw, $cursive-ff, $color-text-weak, $regular, 0, none);
-    
+
     @media(min-width:320px){
       font-size:5vw;
     }

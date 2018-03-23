@@ -63,19 +63,9 @@ jQuery(document).ready(function($){
         $("#modal__collage .carousel-inner").children().eq(pic__id).toggleClass( "active" );
       }
     });
-    //Finding the min-heigh of pieces
-  /*  function Min_height_piece(){
-      let piece__plate = $("#plate");
-      let piece__mug = $("#mug");
-      let piece = $(".piece .container-img");
-      let height = piece__mug.height();
-      console.log(height,height);
-      piece.css('min-height',height);
-      height = piece__plate.height();
-      piece.css('max-height',height);
-      let piece__offer = $(".piece__offer");
-      piece__offer.css('min-height',height);
-    }*/
+    $("#footer_to-top").click(function () {
+     $("html, body").animate({scrollTop: 0}, 1000);
+    });
 
     $(window).on('load',function(){
       console.log("LOADING");
