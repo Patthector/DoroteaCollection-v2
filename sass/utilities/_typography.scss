@@ -95,7 +95,7 @@ $font-family-serif:           'Georgia', 'Cambria', 'Times New Roman', 'Times', 
 
 $font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
 
-// $font-family-display
+// $font-family-display 
 //
 // Define font stack used for headings.
 //
@@ -112,8 +112,8 @@ $font-family-display:         $font-family-sans;
 
 $font-family-default:         $font-family-sans;
 
-$default-ff         :'Playfair Display', serif;
-$cursive-ff         :'Parisienne', cursive;
+$default-ff         :'Playfair Display';
+$cursive-ff         :'Parisienne';
 
 $regular:400;
 $bold:700;
