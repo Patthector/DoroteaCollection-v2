@@ -68,7 +68,7 @@ $typefaces: (
 //
 // $font-family-sans-fallback - {list}
 
-$font-family-sans-fallback:   'Arial', sans-serif;
+//$font-family-sans-fallback:   'Arial', sans-serif;
 
 // $font-family-sans
 //
@@ -77,7 +77,7 @@ $font-family-sans-fallback:   'Arial', sans-serif;
 // $font-family-sans - {list}
 // @requires - `$font-family-sans-fallback`
 
-$font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
+//$font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
 
 // $font-family-serif
 //
@@ -85,7 +85,7 @@ $font-family-sans:            'Helvetica Neue', 'Helvetica', $font-family-sans-f
 //
 // $font-family-serif - {list}
 
-$font-family-serif:           'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+//$font-family-serif:           'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
 
 // $font-family-monospace
 //
@@ -93,15 +93,15 @@ $font-family-serif:           'Georgia', 'Cambria', 'Times New Roman', 'Times', 
 //
 // $font-family-monospace - {list}
 
-$font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
+//$font-family-monospace:       'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
 
-// $font-family-display 
+// $font-family-display
 //
 // Define font stack used for headings.
 //
 // $font-family-display - {list}
 
-$font-family-display:         $font-family-sans;
+//$font-family-display:         $font-family-sans;
 
 // $font-family-default
 //
@@ -110,7 +110,7 @@ $font-family-display:         $font-family-sans;
 // $font-family-default - {string}
 // @requires - `$font-family-sans`
 
-$font-family-default:         $font-family-sans;
+//$font-family-default:         $font-family-sans;
 
 $default-ff         :'Playfair Display';
 $cursive-ff         :'Parisienne';
